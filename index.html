@@ -6,28 +6,49 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css"/>
   </head>
   <body>
-    <h1>Máster en CSS</h1>
-    <ul>
+    <h1 id="titulo" >Máster en CSS</h1>
+    <ul id="menu">
       <li><a href="#">Inicio</a></li>
-      <li><a href="#">Temario</a></li>
+      <li>
+        <a href="#">Temario</a>
+        <ul>
+          <li><a href="#">HTML</a></li>
+          <li><a href="#">CSS</a></li>
+          <li><a href="#">LESS</a></li>
+        </ul>
+      </li>
       <li><a href="#">Reseñas</a></li>
       <li><a href="#">Contacto</a></li>
     </ul>
 
     <div id="descripcion">
       <h2>Descripcion del repaso</h2>
-      <p>
+      <p class="parrafo parrafo1">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis qui ipsam, deleniti, sit repellat quasi non modi sapiente ipsum recusandae ratione nulla harum eveniet nobis maiores, quaerat, molestias veniam neque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia ducimus nam assumenda optio voluptatem nobis aliquid, iure quis, dicta dolorum, consectetur iusto recusandae dolor porro ea nulla eum ratione necessitatibus.
       </p>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis qui ipsam, deleniti, sit repellat quasi non modi sapiente ipsum recusandae ratione nulla harum eveniet nobis maiores, quaerat, molestias veniam neque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia ducimus nam assumenda optio voluptatem nobis aliquid, iure quis, dicta dolorum, consectetur iusto recusandae dolor porro ea nulla eum ratione necessitatibus.
       </p>
-      <p>
+      <p class="parrafo parrafo3">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis qui ipsam, deleniti, sit repellat quasi non modi sapiente ipsum recusandae ratione nulla harum eveniet nobis maiores, quaerat, molestias veniam neque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia ducimus nam assumenda optio voluptatem nobis aliquid, iure quis, dicta dolorum, consectetur iusto recusandae dolor porro ea nulla eum ratione necessitatibus.
       </p>
     </div>
 
+    <div id="usuario">
+      <form>
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre"/>
+        <label for="apellido">apellido</label>
+        <input type="text" name="apellido"/>
+        <input type="submit" name="enviar" value="Enviar"/>
+      </form>
+    </div>
+
     <hr/>
+
+    <div id="saludo">
+      <h1>Hola soy DcTerrance web</h1>
+    </div>
     <footer>
       Todos los derechos reservados &copy; <a href="https://github.com/Dcterrance88" target="_blank">DcTerrance88</a>
     </footer>
