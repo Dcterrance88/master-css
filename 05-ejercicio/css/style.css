@@ -1,0 +1,109 @@
+#contenedor_general {
+  width: 1200px;
+  margin: 0px auto;
+  padding: 0px;
+}
+header {
+  width: 100%;
+  height: 104px;
+  padding-bottom: 20px;
+  background-color: #D32F2F;
+  color:white;
+}
+#titulo h1{
+  text-align: center;
+  font-size: 50px;
+  text-shadow: 2px -2px 5px black;
+}
+
+ul{
+  padding-inline-start: 0px;
+}
+
+li{
+  display: block;
+  float: left;
+  padding: 6px;
+  list-style-type: none;
+  border-right: 1px solid #ccc;
+}
+
+li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+}
+
+li:hover{
+  background-color: #F44336;
+}
+
+li a:hover{
+  color: #BDBDBD;
+}
+
+#barra_lateral {
+  width: 30%
+  float:right;
+}
+
+#contenido_principal{
+  width: 70%;
+}
+
+.caja{
+  display: block;
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  float: left;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 12px;
+  text-align: justify;
+  border: 1px solid black;
+  box-shadow: 0px 0px 15px black inset;
+  border-radius: 10px;
+
+}
+
+.caja:hover{
+  box-shadow: 2px 2px 5px black;
+}
+
+#footer footer{
+  display: block;
+  clear: both;
+  width: 100%;
+  float: bottom;
+}
+
+#footer p{
+  text-align: center;
+}
+
+
+
+
+
+
+
+/*
+Ejercicio completo con HTML Y CSS
+X 1. Crear un documento HTML y CSS
+X 2. Crear una estructura HTML que cuente con un CONTENEDOR GENERAL
+   , CABECERA, MENU, BARRA LATERAL, SECCION DE CONTENIDO PRINCIPAL,
+   ELEMENTOS DENTRO DEL CONTENEDOR PRINCIPAL, Y FOOTER.
+X 3. Todo el contenido debe estar dentro del contenedor general
+   y su ancho sera de 1200px y estar centrado
+X 4. Header debe ocupar el 100% del ancho y debe tener un texto grande centrado.
+X 5. Menu debe tener elementos uno al lado del otro
+X 6. El contenido principal debe tener un ancho del 70%
+7. El contenido dentro del contenedor pricipal debe ser
+una cuadricula con 4 lineas de 2 cajas
+8. la barra lateral debe tener un ancho de 30%
+9. el footer debe tener un ancho del 100% del div que lo contiene
+ y debe estar abajo del todo
+*/
